@@ -3,15 +3,15 @@ import Pokemon from "./Pokemon";
 const PokeList = (props) => {
   const ListItem = props.data.map((pokemon, id) => {
     return (
-      <li key={id}>
+      <li className="list poke-list" key={id}>
         <Pokemon pokemon={pokemon} />
       </li>
     );
   });
   return (
     <div>
-      <h1>Mi lista de pokemon</h1>
-      <ul>{ListItem}</ul>
+      <h1 className="title">Mi lista de pokemon</h1>
+      <ul className="container">{ListItem}</ul>
     </div>
   );
 };
