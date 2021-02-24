@@ -1,7 +1,7 @@
 const Pokemon = (props) => {
   const typesItem = props.pokemon.types.map((type, index) => {
     return (
-      <li className="list photo-list" key={index}>
+      <li className="list type-list" key={index}>
         {type}
       </li>
     );
