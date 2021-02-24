@@ -2,39 +2,3 @@
 .page {
   text-align: center;
 }
-
-//PokeList
-.container {
-  display: flex;
-  flex-wrap: wrap;
-}
-.poke-list {
-  border: 2px solid grey;
-  border-radius: 10px;
-  background-color: lightcyan;
-  margin: 10px;
-  width: 145px;
-}
-.list {
-  list-style: none;
-}
-//Pokemon
-.pokemon-name {
-  border-top: 2px solid grey;
-  border-bottom: 2px solid grey;
-  margin: 0;
-  padding: 5px;
-}
-.types {
-  display: flex;
-  padding: 5px;
-}
-.type-list {
-  background-color: grey;
-  color: white;
-  text-transform: uppercase;
-  font-size: 10px;
-  border-radius: 10px;
-  margin: 5px;
-  padding: 5px;
-}

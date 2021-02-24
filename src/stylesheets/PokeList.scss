@@ -1,0 +1,15 @@
+//PokeList
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.poke-list {
+  border: 2px solid grey;
+  border-radius: 10px;
+  background-color: lightcyan;
+  margin: 10px;
+  width: 145px;
+}
+.list {
+  list-style: none;
+}

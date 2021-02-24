@@ -1,3 +1,5 @@
+import "../stylesheets/Pokemon.scss";
+
 const Pokemon = (props) => {
   const typesItem = props.pokemon.types.map((type, index) => {
     return (
