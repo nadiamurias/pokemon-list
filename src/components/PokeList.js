@@ -1,10 +1,12 @@
 import Pokemon from "./Pokemon";
 import "../stylesheets/PokeList.scss";
+import PropTypes from "prop-types";
 
 const PokeList = (props) => {
-  const ListItem = props.data.map((pokemon, id) => {
+  const ListItem = props.data.map((pokemon) => {
+    console.log(pokemon.id);
     return (
-      <li className="list poke-list" key={id}>
+      <li className="list poke-list" key={pokemon.id}>
         <Pokemon pokemon={pokemon} />
       </li>
     );
@@ -16,4 +18,9 @@ const PokeList = (props) => {
     </div>
   );
 };
+
+PokeList.propTypes = {
+  data: PropTypes.array,
+};
+
 export default PokeList;

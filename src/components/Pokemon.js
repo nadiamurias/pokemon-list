@@ -1,4 +1,5 @@
 import "../stylesheets/Pokemon.scss";
+import PropTypes from "prop-types";
 
 const Pokemon = (props) => {
   const typesItem = props.pokemon.types.map((type, index) => {
@@ -15,6 +16,14 @@ const Pokemon = (props) => {
       <ul className="types">{typesItem}</ul>
     </article>
   );
+};
+
+Pokemon.propTypes = {
+  pokemon: PropTypes.share({
+    types: PropTypes.array,
+    name: PropTypes.string,
+    url: PropTypes.string,
+  }),
 };
 
 export default Pokemon;
