@@ -1,6 +1,6 @@
-# Módulo 3 - React
+# Pokemon List
 
-## Evaluación intermedia Nadia Murias
+Creación de una lista de personajes de Pokemon con la foto y características. Creado con React Js.
 
-Aquí podréis ver el ejercicio solicitado ha realizar para la evaluación intermedia del tercer módulo sobre React.
-https://nadiamurias.github.io/pokemon-list/
+Puedes acceder a este proyecto a través de este [enlace](https://nadiamurias.github.io/pokemon-list/)
+
